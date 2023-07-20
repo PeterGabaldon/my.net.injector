@@ -1,0 +1,15 @@
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\bin\Release\net5.0\my.net.injector.exe
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\bin\Release\net5.0\my.net.injector.deps.json
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\bin\Release\net5.0\my.net.injector.runtimeconfig.json
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\bin\Release\net5.0\my.net.injector.runtimeconfig.dev.json
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\bin\Release\net5.0\my.net.injector.dll
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\bin\Release\net5.0\ref\my.net.injector.dll
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\bin\Release\net5.0\my.net.injector.pdb
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\obj\Release\net5.0\my.net.injector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\obj\Release\net5.0\my.net.injector.AssemblyInfoInputs.cache
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\obj\Release\net5.0\my.net.injector.AssemblyInfo.cs
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\obj\Release\net5.0\my.net.injector.csproj.CoreCompileInputs.cache
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\obj\Release\net5.0\my.net.injector.dll
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\obj\Release\net5.0\ref\my.net.injector.dll
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\obj\Release\net5.0\my.net.injector.pdb
+C:\Users\Peter\my.net.injector\my.net.injector\my.net.injector\obj\Release\net5.0\my.net.injector.genruntimeconfig.cache

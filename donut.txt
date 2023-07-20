@@ -1,0 +1,1 @@
+./donut -i LegitBinary.exe -b1 -t -p '-a PARAM1 -b PARAM2 ...' -o LegitBinary.bin
