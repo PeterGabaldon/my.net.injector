@@ -122,7 +122,7 @@ namespace my.net.loader
 #pragma warning restore CS8632 // The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
         {
             var typeDef = typeof(void).Assembly.GetTypes()
-                .FirstOrDefault(type => GetHash(type.FullName!) == classHash);
+                .FirstOrDefault(type => GetHash(type.FullName) == classHash);
 
             var methodInfo = typeDef.GetRuntimeMethods()
                 .FirstOrDefault(method => GetHash(method.Name) == methodHash);
