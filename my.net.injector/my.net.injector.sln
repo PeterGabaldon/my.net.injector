@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my.net.injector", "my.net.injector\my.net.injector.csproj", "{D4E50637-FB71-47EB-A6F4-2C19F2B28B95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my.net.injector", "my.net.injector\my.net.injector.csproj", "{D9F07EAC-00CA-4A04-8DBF-E56AC1B9F1F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D4E50637-FB71-47EB-A6F4-2C19F2B28B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4E50637-FB71-47EB-A6F4-2C19F2B28B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4E50637-FB71-47EB-A6F4-2C19F2B28B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4E50637-FB71-47EB-A6F4-2C19F2B28B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F07EAC-00CA-4A04-8DBF-E56AC1B9F1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F07EAC-00CA-4A04-8DBF-E56AC1B9F1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F07EAC-00CA-4A04-8DBF-E56AC1B9F1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F07EAC-00CA-4A04-8DBF-E56AC1B9F1F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D0E61249-121E-4480-9100-2BA9065FFF95}
+		SolutionGuid = {FBB005AB-45E9-4E1A-ACC5-8DDE2E44500C}
 	EndGlobalSection
 EndGlobal
